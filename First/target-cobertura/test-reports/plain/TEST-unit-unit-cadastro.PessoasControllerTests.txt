@@ -1,0 +1,116 @@
+Testsuite: cadastro.PessoasControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 3.379 sec
+------------- Standard Output ---------------
+--Output from testDelete--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testDelete--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+------------- ---------------- ---------------
+
+Testcase: testDelete took 2.31 sec
+	FAILED
+Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+	at cadastro.PessoasControllerTests.testDelete(PessoasControllerTests.groovy:144)
+
+Testcase: testIndex took 0.119 sec
+Testcase: testList took 0.542 sec
+Testcase: testCreate took 0.066 sec
+Testcase: testSave took 0.076 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/pessoas/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6489fd5b
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/pessoas/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6489fd5b
+
+	at cadastro.PessoasControllerTests.testSave(PessoasControllerTests.groovy:48)
+
+Testcase: testShow took 0.085 sec
+	FAILED
+Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+	at cadastro.PessoasControllerTests.testShow(PessoasControllerTests.groovy:62)
+
+Testcase: testEdit took 0.08 sec
+	FAILED
+Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+	at cadastro.PessoasControllerTests.testEdit(PessoasControllerTests.groovy:80)
+
+Testcase: testUpdate took 0.075 sec
+	FAILED
+Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+	at cadastro.PessoasControllerTests.testUpdate(PessoasControllerTests.groovy:100)
+

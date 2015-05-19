@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="yago-Inspiron-3421" name="cadastro.PessoasControllerTests" tests="8" time="3.379" timestamp="2015-05-12T16:41:52">
+  <properties />
+  <testcase classname="cadastro.PessoasControllerTests" name="testDelete" time="2.311">
+    <failure message="Assertion failed: &#xa;&#xa;assert pessoas.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       cadastro.Pessoas : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+	at cadastro.PessoasControllerTests.testDelete(PessoasControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <testcase classname="cadastro.PessoasControllerTests" name="testIndex" time="0.119" />
+  <testcase classname="cadastro.PessoasControllerTests" name="testList" time="0.542" />
+  <testcase classname="cadastro.PessoasControllerTests" name="testCreate" time="0.066" />
+  <testcase classname="cadastro.PessoasControllerTests" name="testSave" time="0.076">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/pessoas/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6489fd5b&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/pessoas/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6489fd5b
+
+	at cadastro.PessoasControllerTests.testSave(PessoasControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="cadastro.PessoasControllerTests" name="testShow" time="0.086">
+    <failure message="Assertion failed: &#xa;&#xa;assert pessoas.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       cadastro.Pessoas : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+	at cadastro.PessoasControllerTests.testShow(PessoasControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="cadastro.PessoasControllerTests" name="testEdit" time="0.081">
+    <failure message="Assertion failed: &#xa;&#xa;assert pessoas.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       cadastro.Pessoas : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+	at cadastro.PessoasControllerTests.testEdit(PessoasControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="cadastro.PessoasControllerTests" name="testUpdate" time="0.076">
+    <failure message="Assertion failed: &#xa;&#xa;assert pessoas.save() != null&#xa;       |       |      |&#xa;       |       null   false&#xa;       cadastro.Pessoas : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert pessoas.save() != null
+       |       |      |
+       |       null   false
+       cadastro.Pessoas : (unsaved)
+
+	at cadastro.PessoasControllerTests.testUpdate(PessoasControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testDelete--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+]]></system-out>
+  <system-err><![CDATA[--Output from testDelete--
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+]]></system-err>
+</testsuite>
